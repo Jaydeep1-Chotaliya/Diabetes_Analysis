@@ -21,7 +21,7 @@ The objective of the dataset is to diagnostically predict whether a patient has 
 **Step 2 Data Filtering :**
 This step involves finding and removing the NaN value and unnecessary rows and columns that are not a part of the business. Removing the Outliers.
 
-**Step 3 Exploratotry Data Analysis :**
+**Step 3 Data Analysis :**
 This step follows the finding unique values, Data summary, co-relation of data.
 
 **Step 4 Data Preparation:**
