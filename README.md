@@ -1,7 +1,5 @@
 # Diabetes-Analysis
-
- ![giphy (1)](https://user-images.githubusercontent.com/129647680/235986577-6654c5bc-f8f5-46a9-962a-7c47aacdc8f3.gif)
-
+![elena-leya-UE_Nl6Necnk-unsplash](https://github.com/Jaydeep1-Chotaliya/Diabetes_Analysis/assets/129647680/da7ae6e8-230f-4bdd-b45e-28b9c0aed04f)
 **1 INTRODUCTION** 
 
 Diabetes is a chronic disease that affects millions of people worldwide. It is caused by the inability of the body to produce or use insulin properly, resulting in high levels of glucose in the blood. Early detection and management of diabetes can prevent complications such as blindness, kidney disease, nerve damage, and heart disease.
