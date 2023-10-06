@@ -6,7 +6,7 @@
 Diabetes is a chronic disease that affects millions of people worldwide. It is caused by the inability of the body to produce or use insulin properly, resulting in high levels of glucose in the blood. Early detection and management of diabetes can prevent complications such as blindness, kidney disease, nerve damage, and heart disease.
 
 In 2014, 8.5% of adults aged 18 years and older had diabetes. In 2019, diabetes was the direct cause of 1.5 million deaths and 48% of all deaths due to diabetes occurred before the age of 70 years. 
-Another 460 000 kidney disease deaths were caused by diabetes, and raised blood glucose causes around 20% of cardiovascular deaths.
+Another 460,000 kidney disease deaths were caused by diabetes, and raised blood glucose causes around 20% of cardiovascular deaths.
 
 ## **Outline of the problem to solve** ##
 
@@ -16,12 +16,12 @@ Moreover, this project strives to promote a data-driven approach in healthcare, 
 
 ## **2 SOLUTION STRATERGY** ##
 
-Problem solution follows the following steps:
+The problem solution follows the following steps:
 
-**Step 1 Data description :**
+**Step 1 Data Description :**
 
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases.
-The objective of the dataset is to diagnostically predict whether a patient has diabetes, based on certain diagnostic measurements included such as, Glucose, Bloodpressure, insuline and  BMI in the dataset. Several constraints were placed on the selection of these instances from a larger database.
+The objective of the dataset is to diagnostically predict whether a patient has diabetes, based on certain diagnostic measurements included such as Glucose, blood pressure, insulin, and  BMI in the dataset. Several constraints were placed on the selection of these instances from a larger database.
 
 **Step 2 Data Filtering :**
 
@@ -33,15 +33,15 @@ However, it's important to note that even though the dataset had no missing valu
 
 Data Loading and Inspection: Load the dataset and examine its structure, dimensions, and features.
 
-Summary Statistics:Calculate basic statistics (mean, median, standard deviation, min, max) for numerical features to understand their central tendencies and variability.
+Summary Statistics: Calculate basic statistics (mean, median, standard deviation, min, max) for numerical features to understand their central tendencies and variability.
 
-Descriptive Analysis:Explore the distribution and summary of each feature, identifying outliers, unusual patterns, or missing values.
+Descriptive Analysis: Explore the distribution and summary of each feature, identifying outliers, unusual patterns, or missing values.
 
-Visualization:Create visualizations (histograms, box plots, scatter plots) to represent feature distributions and relationships between variables.
+Visualization: Create visualizations (histograms, box plots, scatter plots) to represent feature distributions and relationships between variables.
 
-Correlation Analysis:Examine the correlation between features to identify potential multicollinearity and relationships that can aid in feature selection.
+Correlation Analysis: Examine the correlation between features to identify potential multicollinearity and relationships that can aid in feature selection.
 
-Univariate and Bivariate Analysis:Analyze individual features (univariate) and the relationships between pairs of features (bivariate) to understand their behavior and interactions.
+Univariate and Bivariate Analysis: Analyze individual features (univariate) and the relationships between pairs of features (bivariate) to understand their behavior and interactions.
 
 **Step 4 Data Analysis :**
 
@@ -90,7 +90,7 @@ There are some Key details found that follow:
 
 from the above graph, we can illustrate that a high glucose level indicates a person has more chance of diabetes.
 
-The correlation coefficient between glucose levels and the presence of diabetes in patients, indicates a strong positive correlation. The plot visually supports this, showcasing higher glucose levels in individuals identified as diabetic.
+The correlation coefficient between glucose levels and the presence of diabetes in patients indicates a strong positive correlation. The plot visually supports this, showcasing higher glucose levels in individuals identified as diabetic.
 
 Understanding this strong positive correlation is vital, as elevated glucose levels are a hallmark of diabetes. It emphasizes the importance of glucose levels as a predictive feature in the diabetes prediction model, supporting the model's accuracy in identifying individuals at risk of diabetes based on this crucial health indicator.
 
@@ -108,7 +108,7 @@ The Logistic Regression model demonstrated exceptional performance in accurately
 
 The model's interpretability is a significant advantage, allowing for a clear understanding of how each feature contributes to the prediction. The coefficients provided valuable insights into the importance of various features, particularly glucose levels and BMI, aligning with existing medical knowledge.
 
-Furthermore, the Logistic Regression model exhibited robustness and generalization capability during cross-validation and testing on unseen data, affirming its effectiveness in real-world scenarios. Its performance was evaluated using key metrics such as accuracy, precision, recall, F1-score, all of which validated its high predictive accuracy.
+Furthermore, the Logistic Regression model exhibited robustness and generalization capability during cross-validation and testing on unseen data, affirming its effectiveness in real-world scenarios. Its performance was evaluated using key metrics such as accuracy, precision, recall, and F1-score, all of which validated its high predictive accuracy.
 
 lastly, logistic regression has demonstrated a **high accuracy model with 81% accuracy, 0.7 precision score, 0.63 recall, and 0.66 F1-score.**
 
