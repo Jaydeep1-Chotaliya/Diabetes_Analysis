@@ -10,9 +10,12 @@ Another 460,000 kidney disease deaths were caused by diabetes, and raised blood 
 
 ## **Outline of the problem to solve** ##
 
-The purpose of this diabetes prediction project is to develop a predictive model that can accurately forecast the likelihood of an individual developing diabetes based on specific health-related features. By leveraging machine learning algorithms and utilizing a comprehensive dataset, the project aims to assist healthcare providers in identifying individuals who are at higher risk of developing diabetes. This early identification can prompt proactive healthcare interventions, such as lifestyle modifications and targeted monitoring, to prevent or manage the onset of diabetes effectively.
+* Objective: Develop a predictive model for accurately forecasting the likelihood of developing diabetes based on health-related features.
+* Method: Utilize machine learning algorithms and a comprehensive dataset to build the predictive model.
+* Impact on Healthcare: Assist healthcare providers in identifying individuals at higher risk of diabetes. Enable proactive healthcare interventions like lifestyle modifications and targeted monitoring.
+* Promoting a Data-Driven Approach in Healthcare: Showcase technology's potential in improving health outcomes. Empower healthcare professionals and individuals with valuable data-derived insights.
+* Ultimate Goal: Contribute to a healthier society by utilizing machine learning for early diabetes risk assessment and promoting a proactive healthcare approach.
 
-Moreover, this project strives to promote a data-driven approach in healthcare, showcasing the potential of technology in improving health outcomes. The goal is to empower both healthcare professionals and individuals with valuable insights derived from data analysis, aiding in making informed decisions regarding diabetes prevention and management. Ultimately, the project intends to contribute to a healthier society by utilizing machine learning for early diabetes risk assessment and promoting a proactive approach to healthcare.
 
 ## **2 SOLUTION STRATERGY** ##
 
@@ -114,10 +117,10 @@ lastly, logistic regression has demonstrated a **high accuracy model with 81% ac
 
 ## **5 Summary of limitations/challenges faced** ##
 
-Achieving an overall model accuracy of 81% is promising, it's important to note that accuracy alone may not provide a complete picture, especially in datasets or critical domains such as healthcare.
+* Achieving an overall model accuracy of 81% is promising, it's important to note that accuracy alone may not provide a complete picture, especially in datasets or critical domains such as healthcare.
 
-The precision of 70% suggests that there is a significant false positive rate, meaning the model may incorrectly identify some individuals as diabetic. This could have serious implications in healthcare where false positives may lead to unnecessary interventions or anxiety for patients.
+* The precision of 70% suggests that there is a significant false positive rate, meaning the model may incorrectly identify some individuals as diabetic. This could have serious implications in healthcare where false positives may lead to unnecessary interventions or anxiety for patients.
 
-Navigating the intricacies of the healthcare domain, specifically diabetes, can be daunting for individuals with an engineering background due to its complex nature. Diabetes involves multifaceted biological systems and medical intricacies that require specialized knowledge and a nuanced understanding of both the physiological and technological aspects.
+* Navigating the intricacies of the healthcare domain, specifically diabetes, can be daunting for individuals with an engineering background due to its complex nature. Diabetes involves multifaceted biological systems and medical intricacies that require specialized knowledge and a nuanced understanding of both the physiological and technological aspects.
 
-The healthcare industry faces significant challenges, particularly regarding the integration of advanced technologies that bring it closer to a human-centered approach while upholding the necessity for high accuracy in medical processes. Balancing these two objectives poses a complex dilemma for the industry.
+* The healthcare industry faces significant challenges, particularly regarding the integration of advanced technologies that bring it closer to a human-centered approach while upholding the necessity for high accuracy in medical processes. Balancing these two objectives poses a complex dilemma for the industry.
