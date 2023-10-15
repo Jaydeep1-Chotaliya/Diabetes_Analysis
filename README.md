@@ -89,6 +89,14 @@ In the conclusion stage, it is essential to summarize the findings, outcomes, an
 
 There are some Key details found that follow:
 
+* ## **Deployment of our project :** ##
+
+![Diabities GIF](https://github.com/Jaydeep1-Chotaliya/Diabetes_Analysis/assets/129647680/35d69b86-4c10-46b5-bc65-857d7d48cc99)
+
+* Deployment transitions a project from development/testing to the live production environment.
+* Goal: Make the project fully operational for intended users and stakeholders.
+* Successful deployment ensures smooth function and value delivery.
+
 ![diab_page-0002](https://github.com/Jaydeep1-Chotaliya/Diabetes_Analysis/assets/129647680/52ff7c86-b35f-4663-8317-d57a12342c5d)
 
 from the above graph, we can illustrate that a high glucose level indicates a person has more chance of diabetes.
