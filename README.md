@@ -112,7 +112,7 @@ Understanding this correlation is crucial, as BMI is a well-established indicato
 Goal: Predict diabetes likelihood based on health-related features.
 Model choice: Logistic Regression selected after comprehensive analysis.
 
-*Logistic Regression Model Performance.
+* Logistic Regression Model Performance.
 Accurate classification into diabetes risk categories.
 Effective use of key features like glucose levels, BMI, blood pressure, and age.
 Strong interpretability, aiding diabetes risk assessment.
