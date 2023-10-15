@@ -16,7 +16,6 @@ Another 460,000 kidney disease deaths were caused by diabetes, and raised blood 
 * Promoting a Data-Driven Approach in Healthcare: Showcase technology's potential in improving health outcomes. Empower healthcare professionals and individuals with valuable data-derived insights.
 * Ultimate Goal: Contribute to a healthier society by utilizing machine learning for early diabetes risk assessment and promoting a proactive healthcare approach.
 
-
 ## **2 SOLUTION STRATERGY** ##
 
 The problem solution follows the following steps:
@@ -81,10 +80,6 @@ The target variable will be binary:
 
 Various classification algorithms such as Logistic Regression, Decision Trees, Support Vector Machines (SVM), and Random Forest will be evaluated to determine the most suitable model for diabetes prediction.
 
-**Step 7 Conclusion: **
-
-In the conclusion stage, it is essential to summarize the findings, outcomes, and insights obtained throughout the study. It serves several critical purposes.
-
 ## **3 DATA INSIGHTS** ##
 
 There are some Key details found that follow:
@@ -92,7 +87,6 @@ There are some Key details found that follow:
 * ## **Deployment of our project :** ##
 
 ![Untitled video - Made with Clipchamp (1)](https://github.com/Jaydeep1-Chotaliya/Diabetes_Analysis/assets/129647680/7142c905-6226-42ca-96d3-90b698bdb327)
-
 
 * Deployment transitions a project from development/testing to the live production environment.
 * Goal: Make the project fully operational for intended users and stakeholders.
@@ -114,15 +108,25 @@ Understanding this correlation is crucial, as BMI is a well-established indicato
 
 ## **4 CONCLUSION** ##
 
-In this diabetes prediction project, we conducted an in-depth analysis of various machine learning classification models to determine the most effective approach for predicting the likelihood of an individual developing diabetes based on specific health-related features. After extensive evaluation, the Logistic Regression model emerged as the optimal choice for this particular task.
+* Project Objective and Model Selection:
+Goal: Predict diabetes likelihood based on health-related features.
+Model choice: Logistic Regression selected after comprehensive analysis.
+Logistic Regression Model Performance:
 
-The Logistic Regression model demonstrated exceptional performance in accurately classifying individuals into two distinct categories: those at risk of developing diabetes and those not at risk. It effectively leveraged features such as glucose levels, BMI, blood pressure, and age to make precise predictions. The model's ability to estimate the probability of an individual belonging to a particular class and its interpretability made it a powerful tool for diabetes risk assessment.
+* Accurate classification into diabetes risk categories.
+Effective use of key features like glucose levels, BMI, blood pressure, and age.
+Strong interpretability, aiding diabetes risk assessment.
+Advantages of Logistic Regression Model:
 
-The model's interpretability is a significant advantage, allowing for a clear understanding of how each feature contributes to the prediction. The coefficients provided valuable insights into the importance of various features, particularly glucose levels and BMI, aligning with existing medical knowledge.
+* Clear feature contributions for better understanding.
+Robustness and generalization demonstrated through testing.
+Performance evaluation using accuracy, precision, recall, and F1-score.
 
-Furthermore, the Logistic Regression model exhibited robustness and generalization capability during cross-validation and testing on unseen data, affirming its effectiveness in real-world scenarios. Its performance was evaluated using key metrics such as accuracy, precision, recall, and F1-score, all of which validated its high predictive accuracy.
-
-lastly, logistic regression has demonstrated a **high accuracy model with 81% accuracy, 0.7 precision score, 0.63 recall, and 0.66 F1-score.**
+* Model Metrics:
+High accuracy: 81%.
+Precision score: 0.7.
+Recall: 0.63.
+F1-score: 0.66, indicating strong predictive capabilities.
 
 ## **5 Summary of limitations/challenges faced** ##
 
