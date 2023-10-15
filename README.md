@@ -111,14 +111,14 @@ Understanding this correlation is crucial, as BMI is a well-established indicato
 * Project Objective and Model Selection:
 Goal: Predict diabetes likelihood based on health-related features.
 Model choice: Logistic Regression selected after comprehensive analysis.
-Logistic Regression Model Performance:
 
-* Accurate classification into diabetes risk categories.
+*Logistic Regression Model Performance.
+Accurate classification into diabetes risk categories.
 Effective use of key features like glucose levels, BMI, blood pressure, and age.
 Strong interpretability, aiding diabetes risk assessment.
-Advantages of Logistic Regression Model:
 
-* Clear feature contributions for better understanding.
+* Advantages of Logistic Regression Model:
+Clear feature contributions for better understanding.
 Robustness and generalization demonstrated through testing.
 Performance evaluation using accuracy, precision, recall, and F1-score.
 
