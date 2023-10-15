@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Diabites Prediction</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Diabites Prediction</h1>
+  <h4>Hope You Have A good Health:)</h4>
+     
+     <!-- Main Input For Receiving Query to our ML -->
+     <form action="{{ url_for('predict')}}"method="post">
+     <table class="table" style="width:40%">
+     <style> table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Sr.No.</th>
+          <th scope="col">Features</th>
+          <th scope="col">Input</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Pregnancies</td>
+          <td><input type="text" name="Pregnancies" placeholder="No. of pregnancies(0-17)" required="required" style="width: 95%;"></td>          
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Glucose</td>
+          <td><input type="text" name="Glucose" placeholder="(0-200)" required="required" style="width: 95%;"></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>BloodPressure</td>
+          <td><input type="text" name="BloodPressure" placeholder="(0-122)" required="required" style="width: 95%;"></td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>SkinThickness</td>
+          <td><input type="text" name="SkinThickness" placeholder="(0-100)" required="required" style="width: 95%;"></td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Insulin</td>
+          <td><input type="text" name="Insulin" placeholder="Insulin level in blood (0-850)" required="required" style="width: 95%;"></td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>BMI</td>
+          <td><input type="text" name="BMI" placeholder="(0-70)" required="required" style="width: 95%;"></td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>DiabetesPedigreeFunction</td>
+          <td><input type="text" name="DiabetesPedigreeFunction" placeholder="Diabetes percentage(0-2.42)" required="required" style="width: 95%;"></td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Age</td>
+          <td><input type="text" name="Age" required="required" style="width: 95%;"></td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td><button type="submit" class="btn btn-primary btn-block btn-large" id="predictButton" style="width: 100%;height: 50px;font-size: 1.5em;">Predict</button></td>
+          <td style="font-size: 30px; font-weight: bold; text-align: center;">{{ prediction_text }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+</body>
+</html>
