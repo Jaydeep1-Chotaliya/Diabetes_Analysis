@@ -91,7 +91,8 @@ There are some Key details found that follow:
 
 * ## **Deployment of our project :** ##
 
-![Diabities GIF](https://github.com/Jaydeep1-Chotaliya/Diabetes_Analysis/assets/129647680/35d69b86-4c10-46b5-bc65-857d7d48cc99)
+![Untitled video - Made with Clipchamp (1)](https://github.com/Jaydeep1-Chotaliya/Diabetes_Analysis/assets/129647680/7142c905-6226-42ca-96d3-90b698bdb327)
+
 
 * Deployment transitions a project from development/testing to the live production environment.
 * Goal: Make the project fully operational for intended users and stakeholders.
